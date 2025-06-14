@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #002147; /* azul oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado con fondo blanco y texto azul */
+header {
+  background-color: #ffffff;
+  color: #002147;
+  text-align: center;
+  padding: 1em;
+  border-bottom: 4px solid #c7a008; /* dorado */
+}
+
+header img {
+  max-width: 100px;
+  
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #002147;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #c7a008; /* dorado al pasar el mouse */
+}
+
+
+h1/* h2*/ {
+  color: #002147;
+}
+
+/* Estilo para listas y texto */
+ul {
+  padding-left: 1.5em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+
+
+/* Imágenes principales */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+
+
