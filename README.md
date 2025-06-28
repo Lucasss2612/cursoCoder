@@ -1,6 +1,6 @@
 # Proyecto Web - Fanpage del Real Madrid
 
-Este es un proyecto realizado para el curso de Desarrollo Web de Coderhouse. Se trata de una fanpage dedicada al Club Atlético River Plate, desarrollada con HTML, CSS y GitHub Pages.
+Este es un proyecto realizado para el curso de Desarrollo Web de Coderhouse. Se trata de una fanpage dedicada al Real Madrid, desarrollada con HTML, CSS y GitHub Pages.
 
 ## 🧱 Estructura del proyecto
 
