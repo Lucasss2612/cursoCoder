@@ -1,0 +1,54 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'sass:color';
+
+
+header {
+  background-color: white;
+  border-bottom: 4px solid v.$color-secundario;
+  padding: 1rem;
+
+  h1 {
+    color: v.$color-primario;
+  }
+
+  nav ul li a {
+    color: v.$color-principal;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+
+    &:hover {
+        color: v.$color-secundario; 
+    }
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: v.$color-principal;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: color.adjust(v.$color-secundario, $lightness: 35%);
+
+        color: v.$color-secundario;
+    }
+
+    img {
+        transition: transform 0.1s ease;
+    }
+
+    &:hover img {
+        transform: scale(1.1); // agranda un poco la imagen al pasar el mouse
+    }
+  }
+  .nav-link[aria-current="page"] {
+  font-weight: bold;
+  border-bottom: 2px solid v.$color-secundario;
+  }
+
+}
